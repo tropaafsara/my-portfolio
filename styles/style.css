@@ -10,7 +10,8 @@ font-family: 'Work Sans', sans-serif;
     width: 160px;
     background: #FFFFFF;
     border-radius: 5px;
-    margin-bottom: 166px;
+    /* margin-bottom: 166px; */
+    border: none;
 }
 .b-banner{
     background-image: url("../images/banner/banner3.png");
@@ -44,4 +45,100 @@ font-family: 'Work Sans', sans-serif;
     text-align: right;
     margin-right: 230px;
     /* align-items: center; */
+}
+.paw{
+    display: flex;
+}
+.my-info{
+    display: flex;
+    margin-top: 131px;
+    margin-left: 206px;
+    margin-right: 322px;
+    width: 1072px;
+    height: 723.3px;
+}
+.my-failures{
+    margin-left: 87px;
+    margin-top: 240px;
+    /* margin-right: 322px; */
+    
+}
+.my-f-title{
+    font-weight: 700px;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.my-f-des{
+    font-weight: 400px;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+.my-f-more-des{
+    font-weight: 400px;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 8px;
+}
+.my-plans-title{
+    font-weight: 700px;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 130px;
+}
+.plan-content{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-left: 230px;
+    margin-right: 229px;
+}
+.plan-item{
+    /* align-items: center; */
+    text-align: center;
+
+}
+.plan-title{
+    font-weight: 700px;
+    font-size: 30px;
+    text-align: center;
+    color: #151414;
+}
+.plan-des{
+    font-weight: 500px;
+    font-size: 25px;
+    text-align: center;
+    color: #737272;
+    margin-top: 16px;
+}
+.mindset{
+    
+    background-repeat: no-repeat;
+    margin-top: 130px;
+    margin-left: 230px;
+    border-radius: 8px;
+    background-image:
+    linear-gradient(90deg,#005FAC 0%, rgb(0, 95, 172, 0) 100%),
+    url('../images/watch.png');
+    /* text-align: left; */
+}
+.m-container{
+    text-align: left;
+    margin-left: 64px;
+    margin-bottom: 147px;
+    /* padding-top: 59px; */
+    /* padding: 9px 617px 147px 64px; */
+
+}
+.mindset-title{
+    font-weight: 700px;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-top: 59px;
+    /* text-align: left; */
+    
+    margin-bottom: 24px;
 }
