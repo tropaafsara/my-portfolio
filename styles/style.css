@@ -91,7 +91,7 @@ font-family: 'Work Sans', sans-serif;
 }
 .plan-content{
     display: flex;
-    gap: 40px;
+    gap: 35px;
     align-items: center;
     margin-left: 230px;
     margin-right: 229px;
@@ -129,6 +129,7 @@ font-family: 'Work Sans', sans-serif;
     text-align: left;
     margin-left: 64px;
     margin-bottom: 147px;
+    margin-top: 59px;
     /* padding-top: 59px; */
     /* padding: 9px 617px 147px 64px; */
 
@@ -137,8 +138,65 @@ font-family: 'Work Sans', sans-serif;
     font-weight: 700px;
     font-size: 40px;
     color: #FFFFFF;
-    margin-top: 59px;
-    /* text-align: left; */
+    text-align: left;
+    /* padding-bottom: 24px; */
+    padding-top: 59px;
+    padding-right: 617px;
     
-    margin-bottom: 24px;
 }
+.btn-primary.btn{
+    
+    margin-bottom: 45px;
+}
+.btn-primary.sub{
+    background: #005FAC;
+    color: #FFFFFF;
+    
+}
+.contact{
+    display: flex;
+    gap: 330px;
+    background: #000000;
+    color: #FFFFFF;
+    width: 1600px;
+    height: 577px;
+}
+.sec-title{
+    font-weight: 700px;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+.sec-des{
+    font-weight: 400px;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 24PX;
+}
+.part-1{
+    padding-left: 230px;
+    padding-top: 130px;
+}
+.part-2{
+    margin-right: 229px;
+    padding-top: 130px;
+}
+.sec-title-2{
+    font-weight: 600px;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+}
+.contact input[type="text"]{
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    padding: 18px 30px;
+    background: #000;
+    color: #F3F3F3;
+    font-weight: 400px;
+    font-size: 18px;
+}
+
+
+    
